@@ -23,6 +23,14 @@ group :production do
   gem 'thin'
 end
 
+group :development, :test do
+  gem 'pry-byebug'
+  gem 'pry', '~> 0.9.12.2'
+  gem 'pry-nav'
+  gem 'pry-rails', '~> 0.3.2'
+  # gem 'xray-rails'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

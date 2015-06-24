@@ -24,3 +24,4 @@ Run the following commands to setup the project
     bundle
     bundle exec rake db:setup
     bundle exec rails s
+# stripe_example
